@@ -21,8 +21,8 @@ myE.once("bar", () => {
   console.log("An event occurred bar.");
 });
 
-// myE.emit("foo");
-// myE.emit("foo", "some text");
+myE.emit("foo");
+myE.emit("foo", "some text");
 
 myE.emit("bar");
 myE.emit("bar");
